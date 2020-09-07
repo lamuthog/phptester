@@ -17,10 +17,11 @@ function sayHello($name) {
 	</head>
 	<body>
 		<?php 
+		$haha= "Remote World";
 		
-		sayHello('remote world');
+		sayHello($haha);
 			
-		phpinfo(); 
+		// phpinfo(); 
 			
 		?>
 	</body>
